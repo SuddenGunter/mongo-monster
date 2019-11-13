@@ -1,0 +1,5 @@
+terraform.tfvars
+*.tfstate*
+.terraform
+terraform.tfvars.json
+ansible/ansible_inventory
