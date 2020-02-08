@@ -8,7 +8,7 @@ resource "digitalocean_kubernetes_cluster" "mongo-monster" {
   node_pool {
     name       = "worker"
     size       = "s-2vcpu-4gb"
-    node_count = 2
+    node_count = 3
     tags       = ["mongo-monster"]
   }
 }

@@ -1,0 +1,2 @@
+prometheusOperator:
+  createCustomResource: false
